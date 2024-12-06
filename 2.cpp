@@ -19,10 +19,10 @@ int main() {
     int num; // 4 байта.
     while (file >> num) {
         arr.push_back(num);
-        // 4 байта.
+        // 4 байта
     }
     file.close();
-    set<int> s; // каждый элемент 4 байта.
+    set<int> s; // каждый элемент 4 байта
     for (int r : arr) {
         s.insert(r);
     }
